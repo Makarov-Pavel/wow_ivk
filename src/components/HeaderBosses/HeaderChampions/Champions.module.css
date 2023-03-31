@@ -1,0 +1,45 @@
+.champions_container{
+    overflow: hidden;
+    width: 330px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.champions_container span{
+    font-family: 'Playfair Display', serif;
+    color: #fccd9f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 4px 3px 4px #1a2429;
+    font-weight: 700;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    background: url('../../../../public/images/champions.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.champions_container span:hover{
+    color:#f18d2b;
+    text-shadow: 4px 3px 4px #000;
+    transform: scale(1.2);
+}
+.champions_container span::before{
+    content: '';
+    width: 65%;
+    height: 43%;
+    position: absolute;
+    left: 56px;
+    top: 62px;
+    background-color: #01010173;
+    z-index: -1;
+    border-radius: 10px;
+}

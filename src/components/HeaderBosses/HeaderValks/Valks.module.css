@@ -1,0 +1,45 @@
+.valks_container{
+    overflow: hidden;
+    width: 330px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.valks_container span{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #95ddff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 3px 2px 3px #000000;
+    font-weight: 700;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    background: url('../../../../public/images/Twin_Val\'kyr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.valks_container span:hover{
+    color:#4e95ff;
+    text-shadow: 2px 1px 2px #000000;
+    transform: scale(1.2);
+}
+.valks_container span::before{
+    content: '';
+    width: 65%;
+    height: 42%;
+    position: absolute;
+    left: 56px;
+    top: 62px;
+    background-color: #01010173;
+    z-index: -1;
+    border-radius: 10px;
+}
