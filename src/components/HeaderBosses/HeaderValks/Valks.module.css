@@ -1,12 +1,13 @@
 .valks_container{
     overflow: hidden;
     width: 330px;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .valks_container span{
+    line-height: 110%;
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: #95ddff;
@@ -35,10 +36,10 @@
 .valks_container span::before{
     content: '';
     width: 65%;
-    height: 42%;
+    height: 48%;
     position: absolute;
     left: 56px;
-    top: 62px;
+    top: 42px;
     background-color: #01010173;
     z-index: -1;
     border-radius: 10px;

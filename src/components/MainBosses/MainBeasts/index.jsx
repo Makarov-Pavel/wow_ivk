@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './Beasts.module.css'
 
-function Beasts() {
+function MainBeasts() {
   return (
-    <div>Beasts</div>
+    <div className={styles.main_beasts_container}>MainBeasts</div>
   )
 }
 
-export default Beasts
+export default MainBeasts

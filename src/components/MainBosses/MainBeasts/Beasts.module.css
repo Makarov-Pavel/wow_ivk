@@ -1,0 +1,5 @@
+.main_beasts_container{
+    color: #fff;
+    border: 1px solid #fff;
+    flex-grow: 5;
+}

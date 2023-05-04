@@ -1,12 +1,13 @@
 .anub_container{
     overflow: hidden;
     width: 330px;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .anub_container span{
+    line-height: 110%;
     font-family: 'Playfair Display', serif;
     color: #ffa0c1c5;
     display: flex;
@@ -39,7 +40,7 @@
     height: 42%;
     position: absolute;
     left: 56px;
-    top: 62px;
+    top: 48px;
     background-color: #01010173;
     z-index: -1;
     border-radius: 10px;

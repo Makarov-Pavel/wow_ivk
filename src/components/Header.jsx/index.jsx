@@ -11,11 +11,11 @@ function Header() {
 
   return (
     <header className={styles.header_container}>
-        <HeaderBeasts />
-        <HeaderLordJaraxus />
-        <HeaderChampions />
-        <HeaderValks />
-        <HeaderAnub />
+        <HeaderBeasts/>
+        <HeaderLordJaraxus/>
+        <HeaderChampions/>
+        <HeaderValks/>
+        <HeaderAnub/>
     </header>
   )
 }

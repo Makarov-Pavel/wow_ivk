@@ -1,12 +1,13 @@
 .champions_container{
     overflow: hidden;
     width: 330px;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .champions_container span{
+    line-height: 110%;
     font-family: 'Playfair Display', serif;
     color: #fccd9f;
     display: flex;
@@ -35,10 +36,10 @@
 .champions_container span::before{
     content: '';
     width: 65%;
-    height: 43%;
+    height: 50%;
     position: absolute;
     left: 56px;
-    top: 62px;
+    top: 42px;
     background-color: #01010173;
     z-index: -1;
     border-radius: 10px;
